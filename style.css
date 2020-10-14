@@ -26,19 +26,10 @@ html {
     margin-bottom: 5%;
     
     font-family: 'Montserrat';
-		font-size: medium;
+		font-size: 2vh;
 
     text-transform: uppercase;
     }
-
-/* Add margins to both sides when in desktop mode */
-  @media screen and (min-width: 1080px) {
-		body {
-      overflow: hidden;
-			margin-left: 25%;
-			margin-right: 25%;
-		}
-  }
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -48,9 +39,21 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: medium;
+    font-size: 5vh;
   }
   
+  /* Add margins to both sides when in desktop mode */
+  @media screen and (min-width: 1080px) {
+    .topnav a {
+      font-size: 2vh;
+    }
+		body {
+      overflow: hidden;
+			margin-left: 25%;
+			margin-right: 25%;
+		}
+  }
+
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
