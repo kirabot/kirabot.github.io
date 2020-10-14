@@ -1,4 +1,15 @@
 /* Add a black background color to the top navigation */
+
+html {
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
  .topnav {
     background-color: #333;
     overflow: hidden;
@@ -14,6 +25,7 @@
 /* Add margins to both sides when in desktop mode */
   @media screen and (min-width: 600px) {
 		body {
+      overflow: hidden;
 			margin-left: 25%;
 			margin-right: 25%;
 		}
