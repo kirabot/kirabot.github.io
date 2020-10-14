@@ -17,7 +17,7 @@ html {
     margin-bottom: 5%;
     
     font-family: 'Montserrat';
-		font-size: small;
+		font-size: medium;
 
     text-transform: uppercase;
     }
@@ -39,7 +39,7 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: medium;
   }
   
   /* Change the color of links on hover */
@@ -142,4 +142,8 @@ html {
     height: 400px;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .footer {
+    margin-top: 20%;
   }
