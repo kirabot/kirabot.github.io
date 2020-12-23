@@ -21,15 +21,15 @@ def line_to_paragraph(line):
 # adds <br> at the end of each line and turns
 # them into paragraphs so that html looks nice
 
-    processed_line = line.replace("\n", "")
-    processed_lines_wrapped = textwrap.wrap(processed_line, 70)
+    # processed_line = line.replace("\n", "")
+    # processed_line = textwrap.wrap(processed_line, 70)
 
-    [wrapped_line + "\n" for wrapped_line in processed_lines_wrapped]
+    # [wrapped_line + "\n" for wrapped_line in processed_line]
     
-    paragraph_output = "".join(processed_lines_wrapped)
-    paragraph_output = "\t\t<p>\n\t\t\t" + paragraph_output + "\n\t\t</p>\n"
+    # paragraph_output = "".join(processed_line)
+    line = "\t\t<p>\n\t\t\t" + line + "\n\t\t</p>\n"
 
-    return paragraph_output
+    return line
 
 
 def lines_to_formatted(input_lines):
