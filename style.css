@@ -100,8 +100,9 @@ html {
 		margin-left: 5%;
 
 		font-family: 'Open Sans';
-
-		font-size: xx-large;
+    font-size: xx-large;
+    font-variant: small-caps;
+    
 		text-align: justify;
 
 		color: #333;
