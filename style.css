@@ -8,6 +8,20 @@ body {
   color: #000;
 }
 
+p {
+  line-height: 1.6;
+}
+
+
+.container {
+  margin: 0 auto;
+}
+
+.narrow {
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
 nav {
   margin-bottom: 40px;
 }
@@ -20,6 +34,11 @@ nav a {
 
 nav a.active {
   font-weight: bold;
+}
+
+h2,
+h3 {
+  margin-top: 2rem;
 }
 
 .title {
