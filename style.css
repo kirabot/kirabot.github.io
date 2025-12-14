@@ -36,6 +36,52 @@ nav a.active {
   font-weight: bold;
 }
 
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.gift-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gift-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.gift-content {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gift-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.gift-reason {
+  margin: 0;
+  font-size: 15px;
+}
+
+.gift-price {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
 h2,
 h3 {
   margin-top: 2rem;
