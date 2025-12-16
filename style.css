@@ -116,3 +116,15 @@ a:visited {
 a:hover, a:focus {
   color: #3949ab; /* lighter but still dark */
 }
+
+.widget-embed {
+  margin: 20px 0 10px;
+}
+
+.widget-embed iframe {
+  width: 100%;
+  max-width: 420px;
+  height: 260px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
