@@ -123,8 +123,7 @@ a:hover, a:focus {
 
 .widget-embed iframe {
   width: 100%;
-  max-width: 420px;
-  height: 260px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
+  max-width: 360px;
+  height: 180px;
+  border: none;
 }
