@@ -119,6 +119,8 @@ a:hover, a:focus {
 
 .widget-embed {
   margin: 20px 0 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .widget-embed iframe {
@@ -126,4 +128,5 @@ a:hover, a:focus {
   max-width: 360px;
   height: 180px;
   border: none;
+  display: block;
 }
