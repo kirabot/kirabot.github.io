@@ -123,9 +123,10 @@ a:hover, a:focus {
 
 .widget-embed {
   margin: 20px 0 10px;
-  display: grid;
-  place-items: center;
-  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .widget-embed iframe {
@@ -135,4 +136,7 @@ a:hover, a:focus {
   border: none;
   display: block;
   margin: 0 auto;
+  box-sizing: border-box;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
