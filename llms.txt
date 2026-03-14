@@ -3,14 +3,14 @@
 This website is fully static HTML and can be read without JavaScript.
 
 Primary pages:
-- https://kirabot.github.io/
-- https://kirabot.github.io/work.html
-- https://kirabot.github.io/essays.html
-- https://kirabot.github.io/contact.html
+- https://vanjaknezevic.com/
+- https://vanjaknezevic.com/work.html
+- https://vanjaknezevic.com/essays.html
+- https://vanjaknezevic.com/contact.html
 
 Essay pages:
-- https://kirabot.github.io/essays/vodesign.html
-- https://kirabot.github.io/essays/empty.html
+- https://vanjaknezevic.com/essays/vodesign.html
+- https://vanjaknezevic.com/essays/empty.html
 
 Contact:
 - Email: hello@vanjaknezevic.com

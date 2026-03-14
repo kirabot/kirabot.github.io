@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kirabot.github.io/sitemap.xml
+Sitemap: https://vanjaknezevic.com/sitemap.xml
